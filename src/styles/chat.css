@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#rootcon {
+  width: 100vw;
+  height: 100vh;
+}
+
+#stylecon {
+  width: 90%;
+  height: 90%;
+  padding: 100px;
+  margin: 40px;
+  border-radius: 40px;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+}
+
+#chatcontainer {
+  width: 90%;
+  min-height: 60px;
+  background-color: beige;
+  border-radius: 10px;
+  margin-top: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.rightmsg {
+  background-color: blue;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  float: right;
+  align-self: flex-end;
+  margin-left: auto;
+  color: white;
+}
+
+.leftmsg {
+  background-color: gray;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  float: left;
+  align-self: flex-start;
+  margin-right: auto;
+  color: white;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+  overflow-y: auto;
+}
