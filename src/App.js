@@ -6,6 +6,7 @@ import Signup from "./components/signup";
 import Forgotpassword from "./components/pswd";
 import Chat from "./components/chatbot";
 import Notifications from "./components/notification";
+import CounterApp from "./components/test";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/forgot" element={<Forgotpassword />}></Route>
           <Route path="/chatbot" element={<Chat />}></Route>
           <Route path="/sse" element={<Notifications />}></Route>
+          <Route path="/test" element={<CounterApp />}></Route>
         </Routes>
       </BrowserRouter>
     </>
